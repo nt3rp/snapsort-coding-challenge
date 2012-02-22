@@ -1,0 +1,8 @@
+{"product_name":"Sony_Cyber-shot_DSC-W310","manufacturer":"Sony","model":"DSC-W310","family":"Cyber-shot","announced-date":"2010-01-06T19:00:00.000-05:00"}
+{"product_name":"Samsung_TL240","manufacturer":"Samsung","model":"TL240","announced-date":"2010-01-05T19:00:00.000-05:00"}
+{"product_name":"Nikon-s6100","manufacturer":"Nikon","model":"S6100","family":"Coolpix","announced-date":"2011-02-08T19:00:00.000-05:00"}
+{"product_name":"Samsung_TL220","manufacturer":"Samsung","model":"TL220","announced-date":"2009-08-12T20:00:00.000-04:00"}
+{"product_name":"Fujifilm-T205","manufacturer":"Fujifilm","model":"T205","family":"FinePix","announced-date":"2011-02-15T19:00:00.000-05:00"}
+{"product_name":"Casio_QV-5000SX","manufacturer":"Casio","model":"QV-5000SX","announced-date":"1998-04-19T20:00:00.000-04:00"}
+{"product_name":"Canon_Digital_IXUS_130_IS","manufacturer":"Canon","model":"130 IS","family":"Digital IXUS","announced-date":"2010-02-07T19:00:00.000-05:00"}
+{"product_name":"Leica_Digilux","manufacturer":"Leica","model":"Digilux","announced-date":"1998-09-15T20:00:00.000-04:00"}

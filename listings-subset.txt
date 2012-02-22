@@ -1,0 +1,14 @@
+{"title":"LED Flash Macro Ring Light (48 X LED) with 6 Adapter Rings for For Canon/Sony/Nikon/Sigma Lenses","manufacturer":"Neewer Electronics Accessories","currency":"CAD","price":"35.99"}
+{"title":"Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0-Inch LCD","manufacturer":"Canon Canada","currency":"CAD","price":"199.96"}
+{"title":"Canon PowerShot SX130IS 12.1 MP Digital Camera with 12x Wide Angle Optical Image Stabilized Zoom with 3.0-Inch LCD","manufacturer":"Canon Canada","currency":"CAD","price":"209.00"}
+{"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"306.24"}
+{"title":"Canon PowerShot D10 12.1 MP Waterproof Digital Camera with 3x Optical Image Stabilized Zoom and 2.5-inch LCD (Blue/Silver)","manufacturer":"Canon Canada","currency":"CAD","price":"420.33"}
+{"title":"Genuine Samsung EB575152VU i9000 GalaxyS Battery","manufacturer":"Samsung","currency":"CAD","price":"13.99"}
+{"title":"Canon PowerShot A1200 (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"129.99"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"88.00"}
+{"title":"Canon PowerShot A495 10.1 MP Digital Camera with 3.3x Optical Zoom and 2.5-Inch LCD (Blue)","manufacturer":"Canon Canada","currency":"CAD","price":"129.92"}
+{"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"259.99"}
+{"title":"Canon PowerShot ELPH 300 HS (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"289.00"}
+{"title":"Canon PowerShot SD1400IS 14.1 MP Digital Camera with 4x Wide Angle Optical Image Stabilized Zoom and 2.7-Inch LCD (Black)","manufacturer":"Canon Canada","currency":"CAD","price":"313.33"}
+{"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.00"}
+{"title":"Kodak EasyShare Z981 14MP Digital Camera with Schneider-Kreuznach Variogon 26x Wide Angle Optical Image Stabilized Zoom Lens and 3.0 Inch LCD","manufacturer":"Kodak","currency":"CAD","price":"299.95"}
