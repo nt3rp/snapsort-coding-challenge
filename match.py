@@ -1,41 +1,40 @@
 #!/usr/bin/python2
-import json
-from operator import attrgetter
 
-PRODUCT_FILE = "products-subset.txt"
-LISTING_FILE = "listings-subset.txt"
-THRESHOLD = 4
+#   General Strategy
+#       Iterate over all product price listings
+#       Try to find a match
+#       If the match is good, add it to the list
+#
+#   For our purposes we assume the following:
+#       Manufacturer is spelled correctly
+#       Manufacturer in product listing and product has been normalized
+#       It is ok to have an offline algorithm
 
-def load_json(filename):
-    results = []
-    my_file = open(filename, "r")
-    for line in my_file.readlines():
-        results.append(json.loads(line))
-    my_file.close()
-    return results
-    
-def get_related_products(listing, products):
-    return filter(lambda x: x["manufacturer"] == listing["manufacturer"], products)
-    
-def likelihood(listing, product):
-    return 1
-    
+from functions import load_json, calculate_score, get_related_products
+
+PRODUCT_FILE = "products.txt"
+LISTING_FILE = "listings.txt"
+THRESHOLD = 0
 
 listings = load_json(LISTING_FILE)
 products = load_json(PRODUCT_FILE)
 
-my_matches = []
+matches = {}
 
 for listing in listings:
     related_products = get_related_products(listing, products)
-    scores = [];
+    potential_matches = [];
     for product in related_products:
-        score = likelihood(listing, product)
-        scores.append({"score": score, "product": product})
-    if scores:
-        max_score = max(scores, key=lambda x: x["score"])
-        print(max_score)
-        if max_score >= THRESHOLD:
-            my_matches.append({"product_name": max_score["product"]["product_name"], "listing": listing})
+        score = calculate_score(listing, product)
+        potential_matches.append({"score": score, "product": product})
+    if potential_matches:
+        best_match = max(potential_matches, key=lambda x: x["score"])
+        if best_match["score"] >= THRESHOLD:
+            product_name = best_match["product"]["product_name"];
+            matches.setdefault(product_name, {}).setdefault("listings", []).append(listing)
 
-print(my_matches)
+#correctly format matches
+#results_file = open("result.txt", "w+")
+#for key, value in matches.iteritems():
+#    results_file.write()
+print(matches)
